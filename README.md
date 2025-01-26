@@ -1,10 +1,6 @@
-Here’s a polished and properly formatted version of your GitHub README:
-
----
-
 # **Network & Security Toolkit** 🛠️
 
-A multi-functional Python script for network reconnaissance and security testing. This toolkit includes **9 powerful features** to help you analyze and secure networks.
+A multi-functional Python script for network reconnaissance and security testing. This toolkit includes **10 powerful features** to help you analyze and secure networks.
 
 ---
 
@@ -19,6 +15,7 @@ A multi-functional Python script for network reconnaissance and security testing
 7. **MAC Address Lookup**: Look up the vendor of a MAC address.
 8. **Geolocation Lookup**: Get the geolocation of an IP address.
 9. **Packet Sniffer**: Capture and analyze network packets.
+10. **Advanced Packet Analysis**: Perform advanced analysis on captured packets (e.g., TCP/UDP payload inspection).
 
 ---
 
@@ -34,7 +31,7 @@ A multi-functional Python script for network reconnaissance and security testing
    python network_toolkit.py
    ```
 4. **Choose an Option**:
-   - Select one of the 9 features from the menu and follow the prompts.
+   - Select one of the 10 features from the menu and follow the prompts.
 
 ---
 
@@ -53,24 +50,25 @@ Port 443 (HTTPS) is open.
 Scan complete!
 ```
 
-### **Subdomain Enumerator**:
+### **Advanced Packet Analysis**:
 ```
-Enter the target domain (e.g., example.com): example.com
-Enter the path to the wordlist file: wordlist.txt
+Starting advanced packet analysis... Press Ctrl+C to stop.
 
-Enumerating subdomains for example.com...
-www.example.com -> 93.184.216.34
-mail.example.com -> 93.184.216.35
-Subdomain enumeration complete!
+Packet: 192.168.1.100 -> 192.168.1.1 | Protocol: TCP
+TCP: Source Port: 54321 -> Destination Port: 80
+Payload: b'GET / HTTP/1.1\r\nHost: example.com\r\n...'
 ```
 
 ---
 
 ## **TBA** 🛠️
 
-- **Add More Features**: Extend the toolkit with additional tools like vulnerability scanning or brute-forcing.
-- **Improve Performance**: Use multi-threading for faster scans.
-- **Export Results**: Save results to a file for further analysis.
+- **Add More Features**: Extend the toolkit with additional tools like vulnerability scanning, brute-forcing, or SSL/TLS analysis.
+- **Improve Performance**: Use asynchronous programming or multi-threading for faster scans and operations.
+- **Export Results**: Save results to a file (e.g., CSV, JSON) for further analysis.
+- **GUI Integration**: Develop a graphical user interface (GUI) for easier interaction.
+- **Cross-Platform Compatibility**: Ensure full compatibility with Windows, macOS, and Linux.
+- **API Integration**: Add support for more APIs (e.g., Shodan, VirusTotal) for enhanced functionality.
 
 ---
 
